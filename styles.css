@@ -1,0 +1,230 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+header {
+    background: #ffffff; 
+    color: #000; 
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+header h1 {
+    font-size: 2.5rem; 
+    margin: 0;
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    color: #000; /* Título en color negro */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #000; /* Color negro para los botones */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    border-radius: 25px;
+    background-color: #ffffff; /* Fondo azul en los botones */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #096e90; /* Fondo azul más oscuro al pasar el ratón */
+    color: #fff; /* Texto blanco al pasar el ratón */
+    transform: scale(1.05);
+}
+
+/* Nueva sección de inicio */
+.inicio-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 1rem;
+    background-color: #ffffff; /* Fondo blanco para toda la sección */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo {
+    flex: 1;
+    max-width: 700px; /* Logo mucho más grande */
+    max-height: 700px;
+    align-self: center;
+    object-fit: cover;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: transparent; /* Fondo transparente detrás del logo */
+}
+
+.slogan-container {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    max-width: 450px;
+}
+
+.slogan {
+    color: #333;
+    font-size: 3.5rem; /* Slogan más grande */
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.slogan-subtext {
+    font-size: 1.3rem;
+    color: #555;
+    margin-top: 0.5rem;
+}
+
+/* Estilos para las secciones */
+.info-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    gap: 2rem;
+    border-bottom: 2px solid #d0e4f2;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.section-content {
+    flex: 1;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.section-image {
+    flex: 1.5;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px;
+    background-color: #096e90;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #87cefa;
+}
+
+/* Estilos para la sección de Contacto */
+#contact {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9fbfd;
+}
+
+#contact .social-icons {
+    margin-top: 20px;
+}
+
+#contact .social-icon {
+    font-size: 2rem;
+    color: #0b6482;
+    margin: 0 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#contact .social-icon:hover {
+    color: #096e90; /* Cambia el color al pasar el ratón */
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Estilos para la nueva sección de Misión y Visión */
+.mission-vision-section {
+    padding: 4rem 2rem;
+    background-color: #f9fbfd;
+    text-align: center;
+}
+
+.mission-vision-section h2 {
+    font-size: 2.5rem;
+    color: #0b6482;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.mission-vision-content {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
+.mission, .vision {
+    flex: 1;
+    max-width: 500px;
+    text-align: center; /* Asegura que los textos estén centrados */
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mission h3, .vision h3 {
+    font-size: 1.8rem;
+    color: #096e90;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.mission p, .vision p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: center; /* Centra el texto dentro de las columnas */
+}
