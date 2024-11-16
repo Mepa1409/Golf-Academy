@@ -65,20 +65,20 @@ nav ul li a:hover {
     align-items: center;
     gap: 2rem;
     padding: 4rem 1rem;
-    background-color: #ffffff; /* Fondo blanco para toda la sección */
+    background-color: #ffffff; 
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .logo {
     flex: 1;
-    max-width: 700px; /* Logo mucho más grande */
+    max-width: 700px; 
     max-height: 700px;
     align-self: center;
     object-fit: cover;
     border-radius: 0;
     box-shadow: none;
-    background-color: transparent; /* Fondo transparente detrás del logo */
+    background-color: transparent; 
 }
 
 .slogan-container {
